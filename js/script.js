@@ -1,7 +1,7 @@
 // reference svg element inside <object> element and change one of its paths' fill color
 
-const object = document.querySelector('object');
-const path = object.contentDocument.querySelector('path#yellow');
+const objectEl = document.querySelector('object');
+const path = objectEl.contentDocument.querySelector('path#yellow');
 path.style.fill = 'red';
 
 // create a repeating transition from yellow to red and back
