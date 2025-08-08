@@ -1,6 +1,6 @@
 // reference svg element inside <object> element and change one of its paths' fill color
 
-const objectEl = document.querySelector('object');
+const objectEl = document.querySelector('object#svg-obj');
 const path = objectEl.contentDocument.querySelector('path#yellow');
 path.style.fill = 'red';
 
